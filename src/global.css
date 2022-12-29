@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:focus{
+  outline: transparent;
+  box-shadow: 0 0 0 2px #5E60CE;
+}
+
+body{
+  background: #1A1A1A;
+  color: #F2F2F2;
+  -webkit-font-smoothing: antialiased; 
+}
+
+body, input, textarea, button{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
